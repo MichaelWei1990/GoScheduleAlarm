@@ -21,6 +21,11 @@ class TestAlarm(unittest.TestCase):
         # time: 18:19:59, expect False
         self.assertEqual(self.alarmtTime.go_off(datetime(date.year,date.month,date.day,18,19,59)), False)
 
+    def test_setter_getter(self):
+        test_alarm_time = datetime(date.year,date.month,date.day,19,20)
+        expected_getter_alarm_time = datetime(date.year,date.month,date.day,19,20)
+        self.alarmtTime.set_time(test_alarm_time)
+        self.assertEqual(self.alarmtTime.get_time() == expected_getter_alarm_time, True)
 
 if __name__ == '__main__':
     unittest.main()

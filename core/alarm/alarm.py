@@ -11,8 +11,15 @@ class Alarm:
         delta = (self.__time - current_time)
         return (delta.days == -1 or delta.seconds == 0)
 
+    def set_time(self, time):
+        self.__time = time
+
+    def get_time(self):
+        return self.__time
+
     def display_time(self):
         print(self.__time)
+        
 
 
 alarm = Alarm(datetime(2019,11,27,18,20))
