@@ -16,3 +16,6 @@ class Stop:
 
     def get_url(self):
         return self.__url
+
+    def display(self):
+        print("ID: " + self.__id + ", name: " + self.__name + ", url: " + self.__url)

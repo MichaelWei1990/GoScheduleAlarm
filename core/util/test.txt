@@ -1,0 +1,15 @@
+stop_id,stop_name,stop_lat,stop_lon,zone_id,stop_url,location_type,parent_station,wheelchair_boarding,stop_code
+YO,York University GO,43.778839,-79.483532,19,https://www.gotransit.com/en/stations-stops-parking/find-a-station-or-stop/results?stationCode=YO,0,,1,
+WR,West Harbour GO,43.266775,-79.866222,18,https://www.gotransit.com/en/stations-stops-parking/find-a-station-or-stop/results?stationCode=WR,0,,1,
+WH,Whitby GO,43.86484,-78.93818,93,https://www.gotransit.com/en/stations-stops-parking/find-a-station-or-stop/results?stationCode=WH,0,,1,
+WE,Weston GO,43.70022,-79.514671,04,https://www.gotransit.com/en/stations-stops-parking/find-a-station-or-stop/results?stationCode=WE,0,,1,
+USBT,Union Station Bus Terminal,43.6456261,-79.3783951,02,https://www.gotransit.com/en/stations-stops-parking/find-a-station-or-stop/results?stationCode=USBT,0,,1,1USBT
+UN,Union Station,43.645195,-79.3806,02,https://www.gotransit.com/en/stations-stops-parking/find-a-station-or-stop/results?stationCode=UN,0,,1,
+UI,Unionville GO,43.851689,-79.314332,71,https://www.gotransit.com/en/stations-stops-parking/find-a-station-or-stop/results?stationCode=UI,0,,1,
+ST,Stouffville GO,43.970924,-79.249989,74,https://www.gotransit.com/en/stations-stops-parking/find-a-station-or-stop/results?stationCode=ST,0,,1,
+SR,Streetsville GO,43.575584,-79.70882,21,https://www.gotransit.com/en/stations-stops-parking/find-a-station-or-stop/results?stationCode=SR,0,,1,
+SCTH,St. Catharines GO,43.1476135,-79.2549057,83,https://www.gotransit.com/en/stations-stops-parking/find-a-station-or-stop/results?stationCode=SCTH,0,,1,
+SC,Scarborough GO,43.716945,-79.254722,06,https://www.gotransit.com/en/stations-stops-parking/find-a-station-or-stop/results?stationCode=SC,0,,1,
+RU,Rutherford GO,43.838487,-79.498819,61,https://www.gotransit.com/en/stations-stops-parking/find-a-station-or-stop/results?stationCode=RU,0,,1,
+RO,Rouge Hill GO,43.780375,-79.130646,09,https://www.gotransit.com/en/stations-stops-parking/find-a-station-or-stop/results?stationCode=RO,0,,1,
+RI,Richmond Hill GO,43.874307,-79.426167,50,https://www.gotransit.com/en/stations-stops-parking/find-a-station-or-stop/results?stationCode=RI,0,,1,
