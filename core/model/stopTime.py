@@ -29,5 +29,5 @@ class StopTime:
         print("Stop time -- ID: " + self.__stopID + ", arrival time: " + self.__make_time_string() + ", head sign: " + self.__headSign)
 
 
-testStopTime = StopTime("UN", 17, 20, "Union Station 17:20 - Lincolnville GO 18:37")
-testStopTime.display()
+# testStopTime = StopTime("UN", 17, 20, "Union Station 17:20 - Lincolnville GO 18:37")
+# testStopTime.display()

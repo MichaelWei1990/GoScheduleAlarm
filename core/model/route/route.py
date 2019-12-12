@@ -3,6 +3,7 @@ class Route:
     __id = ""
     __short_name = ""
     __long_name = ""
+    __stops = set()
 
     def __init__(self, id, short_name, long_name):
         self.__id = id
@@ -11,6 +12,15 @@ class Route:
 
     def get_id(self):
         return self.__id
+
+    def add_stop(self, stop_id):
+        self.__stops.add(stop_id)
+
+    def display_stops(self):
+        print("Route has below stops:")
+        for stop in self.__stops:
+            print(stop)
+
     
     def display(self):
         print("Route ID: " + self.__id + ", short name: " + self.__short_name + ", long name: " + self.__long_name)

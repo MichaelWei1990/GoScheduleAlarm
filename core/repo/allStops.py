@@ -20,5 +20,3 @@ class StopsRepo:
         for stop in self.__all_stops.values():
             stop.display()
 
-repo = StopsRepo()
-repo.display_all()

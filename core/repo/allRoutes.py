@@ -20,6 +20,3 @@ class RoutesRepo:
         for route in self.__all_routes.values():
             route.display()
 
-
-repo = RoutesRepo()
-repo.display_all()
