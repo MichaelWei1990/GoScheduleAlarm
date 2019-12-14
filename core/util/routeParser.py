@@ -14,11 +14,11 @@ def make_route(infos):
     if is_train_route(infos[route_info_look_up["TYPE"]]):
         return Route(infos[route_info_look_up["ID"]], infos[route_info_look_up["SHORT_NAME"]], \
             infos[route_info_look_up["LONG_NAME"]])
-    return None;
+    return None
 
 
 def load_routes(routes_file_name):
-    all_routes = {};
+    all_routes = {}
     file = open(routes_file_name)
     file.readline()     # skip title line
     lines = file.readlines()

@@ -16,6 +16,11 @@ class Route:
     def add_stop(self, stop_id):
         self.__stops.add(stop_id)
 
+    def add_stops(self, stop_ids):
+        for id in stop_ids:
+            self.__stops.add(id)
+        self.display_stops()
+
     def display_stops(self):
         print("Route has below stops:")
         for stop in self.__stops:

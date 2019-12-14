@@ -14,7 +14,7 @@ class StopTime:
         self.__headSign = headSign
 
     def get_stop_id(self):
-        return self.__stopID;
+        return self.__stopID
 
     def get_arrival_time(self):
         return self.__arrivalHour, self.__arrivalMinute
